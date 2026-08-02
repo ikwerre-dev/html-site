@@ -1,0 +1,22 @@
+{
+  "$schema": "https://orzn.io/schema/orizon.json",
+  "projectId": "proj_html_site",
+  "name": "html-site",
+  "framework": "static",
+  "servingMode": "static",
+  "productionBranch": "main",
+  "url": "https://html-site.orzn.app",
+  "orizon": {
+    "dashboard": "https://dashboard.orizon.ng/projects/proj_html_site",
+    "api": "https://api.orizon.ng/api/v1",
+    "openapi": "https://api.orizon.ng/api/v1/openapi.json",
+    "mcp": {
+      "command": "orizon",
+      "args": [
+        "mcp"
+      ]
+    },
+    "docs": "https://orzn.io/docs",
+    "llms": "https://orzn.io/llms.txt"
+  }
+}
